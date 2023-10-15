@@ -21,9 +21,9 @@ public class ImplementationOfHashMap{
 
 
         //Let's use some other functions in HashMap such as containsKey(), containsValue(), isEmpty() , size()
-        System.out.println(map.containsKey(3));                //true
-        System.out.println(map.containsValue("Black"));     // true
-        System.out.println(map.isEmpty());                       // false
+        System.out.println(map.containsKey(3));                 //true
+        System.out.println(map.containsValue("Black"));         // true
+        System.out.println(map.isEmpty());                      // false
         System.out.println(map.size());                         //4                     
 
     }
