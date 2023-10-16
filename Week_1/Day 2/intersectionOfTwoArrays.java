@@ -1,6 +1,6 @@
 import java.util.ArrayList;
 import java.util.HashMap;
-import java.util.Set;
+import java.util.Set;        //Here We have used HashSet inorder to ensure the uniqueness of the elements 
 import java.util.HashSet;
 
 public class intersectionOfTwoArrays {
