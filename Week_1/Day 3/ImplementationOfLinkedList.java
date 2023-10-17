@@ -1,3 +1,5 @@
+// Basic operations such as adding, deleting , modifying and iterating the data using LinkedList
+
 import java.util.*;
 public class ImplementationOfLinkedList {
     public static void main(String[] args) {
