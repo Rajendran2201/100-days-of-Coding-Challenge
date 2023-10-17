@@ -1,6 +1,6 @@
 # 100 Days of Coding Challenge - Rajendran 
 
-Welcome to my 100 Days of Coding Challenge repository! Here, I'll be documenting my coding journey over the next 100 days as I work on various coding projects and exercises to improve my skills. The goal of this challenge is to stay consistent in my coding practice and make meaningful progress.
+Welcome to my 100 Days of Coding Challenge repository! Here, I'll be documenting my coding journey over the next 100 days as I work on various coding projects and exercises to improve my skills. The goal of this challenge is to stay consistent in my coding practice and make meaningful progress. Most of time, I'll be coding in Java for problem solving.
 
 ## Challenge Rules
 - **Code Every Day:** I commit to learning and writing code every day for the next 100 days.
