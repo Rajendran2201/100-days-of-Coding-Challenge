@@ -1,6 +1,6 @@
 /*Let's Start with the concept of Object oriented programming
  * 
- * Firstly, lets start with the learning how to create classes, objects and methods. Then we shall learn to access the avlues from them 
+ * Firstly, lets start with the learning how to create classes, objects and methods. Then we shall learn to access the values from them 
  * Later we can proceed with the four pillars of OOP's :
  *              i)      Abstraction
  *              ii)     Data Encapsulation
