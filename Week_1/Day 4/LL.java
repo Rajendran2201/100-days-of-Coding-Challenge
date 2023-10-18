@@ -1,3 +1,6 @@
+/*  This is the code for the implementation of a Custom LinkedList which allows us to add a value ainto it and print the entire List  */
+
+
 public class LL {
     
     private Node head;                          //It refers to the first element in the Linked List
