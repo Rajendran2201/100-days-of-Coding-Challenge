@@ -1,3 +1,11 @@
+/*
+    This is the code implementation of the class "Construct" which has three constructors with varying number of parameters 
+    such that they are called based on the number of arguments provided
+
+    A constructor is called during the creation of an object
+    
+*/
+
 package Constructors;
 public class Construct{
     Construct(){
