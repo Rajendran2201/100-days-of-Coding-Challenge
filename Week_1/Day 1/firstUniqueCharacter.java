@@ -1,5 +1,5 @@
 /*
- * 387. FIRST UNIQUE CHARACTER IN A STRING
+ * 387. FIRST UNIQUE CHARACTER IN A STRING    ( LEETCODE )
  * Given a string s, find the first non-repeating character in it and return its index. If it does not exist, return -1.
  * 
  * Example 1: "leetcode"        Output:0
