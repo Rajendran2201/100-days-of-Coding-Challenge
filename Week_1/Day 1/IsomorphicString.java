@@ -1,8 +1,9 @@
 import java.util.HashMap;
 
 public class IsomorphicString {
-    /*
-         * 205. ISOMORPHIC STRING
+    /*       
+    
+         * 205. ISOMORPHIC STRING    ( LEETCODE )
          * 
          * Given two strings s and t, determine if they are isomorphic.
 
