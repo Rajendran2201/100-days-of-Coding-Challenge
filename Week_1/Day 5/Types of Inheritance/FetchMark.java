@@ -1,5 +1,6 @@
-//Sub Class / Derived Class 
+// We cannot use Grandparent's members in this class. This is because In JAVA, derived classes cannot acces the members of grandparent's class
 
+/*    Sub Class / Derived Class     */
 
 public class FetchMark extends FetchAge{
     void printMark (int rollno){
