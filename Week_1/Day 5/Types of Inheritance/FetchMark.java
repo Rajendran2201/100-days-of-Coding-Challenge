@@ -1,3 +1,6 @@
+//Sub Class / Derived Class 
+
+
 public class FetchMark extends FetchAge{
     void printMark (int rollno){
         switch(rollno){
