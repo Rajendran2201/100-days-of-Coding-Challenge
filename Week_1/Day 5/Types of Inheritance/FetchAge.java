@@ -1,3 +1,5 @@
+//PARENT CLASS  derived from FetchName class
+
 public class FetchAge extends FetchName{
     void printAge (int rollno){
         switch(rollno){
