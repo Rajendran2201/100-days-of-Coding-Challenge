@@ -14,7 +14,7 @@ In this algorithm,
     * This process is continued until the key is found or the total search space is exhausted.
 
 
-
+* The point to be noted here is The array has to be *SORTED* to implement a binary search.
 * The Binary search algorithm takes O(log n) time complexity inorder to search for an element in an array
 * It basically uses the "Divide and Conquer" approach
 
