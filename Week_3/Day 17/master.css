@@ -1,0 +1,60 @@
+body{
+	font-family: 'Noto Serif Hebrew', serif;
+font-family: 'Roboto Slab', serif;
+}
+.common{
+	text-align:center;
+	background-color:black;
+color:white;
+}
+.header h3{
+	color:#FFA500;
+
+}
+.raj span{
+	color:#68BBE3;
+}
+.raj button{
+	background-color:#0E86D4;
+	padding: 15px 32px;
+	color:white;
+	border-radius: 12px;
+	
+}
+.raj ul{
+	list-style-type:none;
+}
+.hd1 {
+	background-color:#FFE5B4;
+	color:black;
+}
+.hd1 h1{
+	color:	#89CFEF;
+}
+.hd2{
+	display:flex;
+}
+.hd3{
+	display:flex;
+	
+}
+
+.hd2 h3{
+	color:red;
+}
+.hd3 h3{
+	color:red;
+}
+.hd2{
+	background-color:#FFE5B4;
+	box-shadow:3px 3px 5px 4px #000;
+	margin:10px 20px 10px 20px;
+	padding:20px;
+	justify-content:space-around;
+}
+.hd3{
+	background-color:#FFE5B4;
+	box-shadow:3px 3px 5px 4px #000;
+		margin:10px 20px 10px 20px;
+		padding:20px;
+}
