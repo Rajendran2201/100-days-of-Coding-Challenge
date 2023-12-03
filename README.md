@@ -6,7 +6,7 @@ Welcome to my 100 Days of Coding Challenge repository! Here, I'll be documenting
 - **Code Every Day:** I commit to learning and writing code every day for the next 100 days.
 - **Data Structures and Algorithms:** My first objective of this challenge is to learn problem solving skills. So, I'll be focusing in solving leetcode problems by learning different data structures and effecient algorithms.
 - **Development:** The second objective is to indulge myself in the world of development and start building my development journey with tiny projects. I will be learning quite a few tech stacks related to development over this challenge.
-- **Object Oriented Programming:** the third objective is to learn OOP's concepts such as Abstraction, Encapsulation, Inheeritance and Polymorphism using java 
+- **Object Oriented Programming:** The third objective is to learn OOP's concepts such as Abstraction, Encapsulation, Inheeritance and Polymorphism using java 
 - **Track Progress:** I'll use this repository to log my daily coding activities, sharing my code, thoughts, and progress.
 
 ## Day-by-Day Progress
