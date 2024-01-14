@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <label>Select Type:</label>
+    <select id="type" onchange="changevalues()">
+        <option>--select-</option>
+        <option value="Acessories">Acessories</option>
+        <option value="Jewellery">Jewellery</option>
+        <option value="Beauty & Grooming">Beauty & Grooming</option>
+        <option value="Footwear">Footwear</option>
+    </select>
+    <button id="but" onclick="onsub()">SUBMIT</button>
+
+    <script>
+        function changevalues() {
+            var first = document.getElementById("type");
+
+            if (first.value == "Acessories") {
+                var br = document.createElement("br");
+                var select = document.createElement("select");
+
+                select.setAttribute("id", "acessory");
+                select.innerHTML = "<option>--select--</option>";
+                select.innerHTML += "<option>Luggages</option>";
+                select.innerHTML += "<option>Smart watch</option>";
+                select.innerHTML += "<option>Handbags</option>";
+                select.innerHTML += "<option>Hearables</option>";
+
+                document.body.append(br);
+                document.body.append(select);
+                document.getElementById("Jewellery").style.display = "none";
+                document.getElementById("Beauty & Grooming").style.display = "none";
+                document.getElementById("Footwear").style.display = "none";
+
+            }
+            if (first.value == "Jewellery") {
+                var br = document.createElement("br");
+                var select = document.createElement("select");
+
+                select.setAttribute("id", "Jewellery");
+                select.innerHTML = "<option>--select--</option>";
+                select.innerHTML += "<option>Fine Jewellery</option>";
+                select.innerHTML += "<option>Ethnic Jewellery</option>";
+                select.innerHTML += "<option>Western Jewellery</option>";
+                select.innerHTML += "<option>Hair accesories</option>";
+
+                document.body.append(br);
+                document.body.append(select);
+                document.getElementById("Acessories").style.display = "none";
+                document.getElementById("Beauty & Grooming").style.display = "none";
+                document.getElementById("Footwear").style.display = "none";
+
+            }
+
+            if (first.value == "Beauty & Grooming") {
+                var br = document.createElement("br");
+                var select = document.createElement("select");
+
+                select.setAttribute("id", "Beauty & Grooming");
+                select.innerHTML = "<option>--select--</option>";
+                select.innerHTML += "<option>Makeup</option>";
+                select.innerHTML += "<option>Fragnaces</option>";
+                select.innerHTML += "<option>Premium beauty</option>";
+                select.innerHTML += "<option>Bath & Bodycare</option>";
+
+                document.body.append(br);
+                document.body.append(select);
+                document.getElementById("Jewellery").style.display = "none";
+                document.getElementById("Acessories").style.display = "none";
+                document.getElementById("Footwear").style.display = "none";
+
+            }
+
+            if (first.value == "Footwear") {
+                var br = document.createElement("br");
+                var select = document.createElement("select");
+
+                select.setAttribute("id", "Footwear");
+                select.innerHTML = "<option>--select--</option>";
+                select.innerHTML += "<option>Heels Store</option>";
+                select.innerHTML += "<option>Women flat & Casual Shoes</option>";
+                select.innerHTML += "<option>Men Sports Shoes</option>";
+                select.innerHTML += "<option>Sneakers<option>";
+
+                document.body.append(br);
+                document.body.append(select);
+                document.getElementById("Jewellery").style.display = "none";
+                document.getElementById("Beauty & Grooming").style.display = "none";
+                document.getElementById("Acessories").style.display = "none";
+
+            }
+        }
+        function onsub() {
+            alert("Dear Customer,Thank you for choosing us! We appreciate your recent purchase and trust in our products/services. Your support means a lot to us. If you have any questions or feedback, feel free to reach out. We look forward to serving you again soon.");
+        }
+    </script>
+</body>
+
+</html>
