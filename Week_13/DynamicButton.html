@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic Button</title>
+    <style>
+        body{
+            background-color: khaki;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <form>
+        <label>Username:</label>
+        <input type="text" id="input">
+        <label>Password:</label>
+        <input type="text" id="password" onkeyup="buttonCreate()">
+        <div id="buttonContainer"></div>
+    </form>
+    
+    <script>
+        function buttonCreate() {
+            var buttonContainer = document.getElementById("buttonContainer");
+            buttonContainer.innerHTML = ""; 
+            var button = document.createElement("button");
+            button.innerHTML = "Submit";
+            buttonContainer.appendChild(button);
+        }
+    </script>
+</body>
+
+</html>

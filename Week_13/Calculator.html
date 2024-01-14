@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        background-color: black;
+      }
+      .title {
+        color: orange;
+        font-family: "Righteous", cursive;
+        text-align: center;
+        margin-top: 0;
+      }
+      .special button {
+        background-color: orange;
+      }
+      button {
+        border: 0;
+        border-radius: 7px;
+        padding: 12px;
+        margin-right: 30px;
+        width: 120px;
+        margin-top: 5px;
+        height: 35px;
+      }
+      .row {
+        display: flex;
+      }
+      .calciinput input {
+        width: 600px;
+        height: 40px;
+        border-radius: 10px;
+        margin-left: 75px;
+        background-color: bisque;
+        color: orange;
+        font-weight: bolder;
+        font-size: larger;
+        text-align: right;
+      }
+      .calcibody {
+        margin-top: 15px;
+        margin-left: 90px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="title">
+        <h1>CALCULATOR</h1>
+      </div>
+      <div class="calcihead">
+        <div class="calciinput">
+          <input type="text" id="entervalues" />
+        </div>
+      </div>
+      <div class="calcibody">
+        <div class="row">
+          <div class="special">
+            <button onclick="clearvalues()">AC</button>
+            <button onclick="deletevalues()">DEL</button>
+          </div>
+          <button onclick="entervalues('+')">±</button>
+          <button onclick="entervalues('/')">÷</button>
+        </div>
+        <div class="row">
+          <button onclick="entervalues(9)">9</button>
+          <button onclick="entervalues(8)">8</button>
+          <button onclick="entervalues(7)">7</button>
+          <button onclick="entervalues('*')">×</button>
+        </div>
+        <div class="row">
+          <button onclick="entervalues(6)">6</button>
+          <button onclick="entervalues(5)">5</button>
+          <button onclick="entervalues(4)">4</button>
+          <button onclick="entervalues('-')">-</button>
+        </div>
+        <div class="row">
+          <button onclick="entervalues(3)">3</button>
+          <button onclick="entervalues(2)">2</button>
+          <button onclick="entervalues(1)">1</button>
+          <button onclick="entervalues('+')">+</button>
+        </div>
+        <div class="row">
+          <button onclick="entervalues('%')">%</button>
+          <button onclick="entervalues(0)">0</button>
+          <button onclick="entervalues('.')">.</button>
+          <button onclick="getoutput()">=</button>
+        </div>
+      </div>
+    </div>
+    <script>
+      function entervalues(x) {
+        document.getElementById("entervalues").value += x;
+      }
+      function getoutput() {
+        var input = document.getElementById("entervalues").value;
+        document.getElementById("entervalues").value = eval(input);
+      }
+      function clearvalues() {
+        document.getElementById("entervalues").value = "";
+      }
+      function deletevalues() {
+        var input = new String(document.getElementById("entervalues").value);
+        document.getElementById("entervalues").value = input.slice(0, -1);
+      }
+    </script>
+  </body>
+</html>
